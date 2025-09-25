@@ -1,13 +1,12 @@
 package com.example.demo.entities;
 
 public class Pessoa {
-    private static int contador = 1; // Para gerar IDs automáticos
 
     private int id;
     private String nome;
 
     public Pessoa(String nome) {
-        this.id = contador++;
+        this.id = id;
         this.nome = nome;
     }
 
