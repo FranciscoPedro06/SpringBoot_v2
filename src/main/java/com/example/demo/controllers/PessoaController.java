@@ -60,3 +60,4 @@ public class PessoaController {
         pessoas.removeIf(c -> c.getId() == id);
     }
 }
+
